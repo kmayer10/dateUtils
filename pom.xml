@@ -8,6 +8,13 @@
   <name>dateUtils</name>
   <url>https://thinknyx.com</url>
   
+	<properties>
+		<sonar.projectKey>kmayer10_dateUtils</sonar.projectKey>
+		<sonar.organization>kmayer10</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>8a3433cfe5a57456ca8c555cb25aa905bdc9008b</sonar.login>
+	</properties>
+  
   <distributionManagement>
 		<repository>
 				<id>releases</id>
