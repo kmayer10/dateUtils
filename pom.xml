@@ -4,9 +4,31 @@
   <groupId>com.thinknyx.core.utils</groupId>
   <artifactId>dateUtils</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1</version>
   <name>dateUtils</name>
   <url>https://thinknyx.com</url>
+  
+	<properties>
+		<sonar.projectKey>kmayer10_dateUtils</sonar.projectKey>
+		<sonar.organization>kmayer10</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>8a3433cfe5a57456ca8c555cb25aa905bdc9008b</sonar.login>
+	</properties>
+  
+  <distributionManagement>
+		<repository>
+				<id>releases</id>
+				<name>Internal Releases</name>
+				<url>https://maven.pkg.github.com/kmayer10/dateUtils</url>
+			</repository>
+		<!--<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+		</snapshotRepository>-->
+</distributionManagement>
+  
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
