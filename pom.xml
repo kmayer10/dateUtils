@@ -4,9 +4,23 @@
   <groupId>com.thinknyx.core.utils</groupId>
   <artifactId>dateUtils</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>dateUtils</name>
   <url>https://thinknyx.com</url>
+  
+  <distributionManagement>
+		<repository>
+				<id>releases</id>
+				<name>Internal Releases</name>
+				<url>https://maven.pkg.github.com/kmayer10/dateUtils</url>
+			</repository>
+		<!--<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+		</snapshotRepository>-->
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
