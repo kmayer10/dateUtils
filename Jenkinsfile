@@ -22,5 +22,11 @@ pipeline {
                 }
             }
         }
+        
+        stage ('Archive Artifacts') {
+            steps {
+                archiveArtifacts 'target/*.jar'
+            }
+        }
     }
 }
