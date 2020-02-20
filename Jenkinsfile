@@ -18,7 +18,7 @@ pipeline {
         stage ('Packaging and Distribution') {
             steps {
                 withMaven(maven : 'mvn_home') {
-                    sh 'mvn clean deploy'
+                    sh 'mvn clean package'
                 }
             }
         }
