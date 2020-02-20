@@ -4,7 +4,7 @@
   <groupId>com.thinknyx.core.utils</groupId>
   <artifactId>dateUtils</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.4</version>
   <name>dateUtils</name>
   <url>https://thinknyx.com</url>
   <dependencies>
